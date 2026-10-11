@@ -1,0 +1,17 @@
+{
+  "name": "campus-helper",
+  "version": "1.1.0",
+  "private": true,
+  "description": "AI-powered study assistant: summarize lecture notes and generate interactive quizzes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "lint": "node scripts/lint.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
